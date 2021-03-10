@@ -1,0 +1,33 @@
+#data {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#data td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data tr:nth-child(even){background-color: #f2f2f2;}
+
+#data tr:hover {background-color: #ddd;}
+
+#data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #339CFF   ;
+    color: white;
+}
+
+#button {
+    background-color: #339CFF; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
